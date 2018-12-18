@@ -1,0 +1,226 @@
+body {
+    /* Visual */
+    background-color: #e4f0d0;
+}
+
+header {
+    /* Visual */
+    background-color: #c2d8b9;
+}
+
+h1 {
+     /* Visual */
+     padding: 15px;
+
+    /* Typogrphy */
+    font-size: 36px;
+    text-align: center;
+}
+
+h2 {
+    /* Typogrphy */
+    font-size: 24px;
+}
+
+input {
+    /* Visual */
+    background-color: #fffcf7;
+}
+
+#sizer {
+    /* Box-Model */
+    width: 1024px;
+
+    /* Positioning */
+    margin: 0 auto;
+}
+/***
+
+***/
+
+#swap-zone {
+    /* Box- Mdel */
+    width: 75%;
+
+    /* Positioning */
+    margin: 25px auto;
+
+    /* Typography */
+    text-align: cneter;
+}
+
+#swap-zone input {
+    /* Box-Model */
+    width: 200px;
+    height: 30px;
+
+    /* Typography */
+    font-size: 30px;
+
+}
+
+#swap-zone button {
+    /* Box-MOdel */
+    width: 100px;
+    height:36px;
+
+    /* Typography */
+    font-size: 22px;
+
+    /* Positioning */
+    vertical-align: top;
+}
+
+/***
+***/
+
+#current-turn {
+    /* Box-Model */
+    width: 75%;
+
+    /* Positioning */
+    margin: 15px auto;
+
+    /* Typography */
+    text-align: center;
+}
+
+/***
+***/
+
+#game-div {
+    /* Typography */
+    text-align: center;
+}
+
+#player1,
+#result,
+#player2 {
+    position: relative;
+    display: inline-block;
+
+/* Box- Model */
+width: 25%;
+height: 200px;
+box-sizing: border-box;
+padding: 10px;
+
+/* Positioning */
+margin: 2%;
+
+/* typography */
+text-align: center;
+vertical-align: top;
+
+/* Visual */
+border: 1px solid #000;
+}
+
+#player1-name,
+#player2-name {
+    /* Positioning */
+    margin-bottom: 15px;
+
+    /*Typography*/
+    font-size: 28px;
+}
+
+#player1-chosen,
+#player2-chosen {
+  /* Positioning */
+  margin-top: 25px;
+
+  /* Typography */
+  font-size: 60px;
+}
+
+li {
+   /* Positioning */
+   margin:12px 0;
+   /* Typography */
+  font-size: 24px;
+}
+
+.outcomes {
+    /* Positioning */
+    position: absolute;
+    bottom: 10px;
+  
+    /* Box-model */
+    width: 90%;
+  
+    /* Typography */
+    text-align: center;
+  }
+  
+  .outcome-trackers { /* Box-model */
+    display: inline-block;
+  }
+  
+  #result h2 {
+    /* Positioning */
+    margin-top: 20px;
+  
+    /* Typography */
+    font-size: 60px;
+  }
+
+  /***
+  ***/
+
+  #chat {
+      /* Positioning */
+      position: relative;
+
+      /* Box- Model */
+      width: 600px;
+      height: 150px;
+
+      /* Visual */
+      padding:10px;
+      margin:px auto;
+
+  }
+
+  #chat-messages {
+      /* Box- Model */
+      height: 125px;
+      overflow: auto;
+
+      /* Visual */
+      background-color: #fffcf7;
+  }
+
+  #chat-bar {
+    /* Positioning */
+    position: absolute;
+    bottom: 10px;
+  }
+  #chat-input {
+    /* Box-Model */
+    width: 550px;
+  }
+
+#chat-send {
+   /* Box- Model */
+    width: 40px;
+}
+
+.player1 {
+  /* Visual */
+    color: #419d78;
+}
+
+.player2 {
+  /* Visual */
+    color: #2d3047;
+}
+
+.player0 {
+    /* Visual */
+    color: #000;
+
+
+/* Visual */ 
+background-color: #d3d3d3;
+}
